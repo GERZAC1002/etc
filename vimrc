@@ -8,7 +8,7 @@
 
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages.
-runtime! archlinux.vim
+"runtime! archlinux.vim
 
 " If you prefer the old-style vim functionalty, add 'runtime! vimrc_example.vim'
 " Or better yet, read /usr/share/vim/vim80/vimrc_example.vim or the vim manual
@@ -16,6 +16,7 @@ runtime! archlinux.vim
 
 " do not load defaults if ~/.vimrc is missing
 "let skip_defaults_vim=1
+set t_Co=256
 set mouse=nicr
 set mouse=
 set ttymouse=
@@ -29,4 +30,12 @@ set textwidth=80
 set colorcolumn=+1
 set tabstop=4
 set shiftwidth=4
+set background=light
+"color desert
 highlight Comment ctermfg=6
+highlight LineNr ctermfg=11
+highlight cCommentString ctermfg=6
+highlight cComment ctermfg=6
+hi SpecialKey ctermfg=black
+"set background=dark
+syntax enable
