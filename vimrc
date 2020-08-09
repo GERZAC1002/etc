@@ -36,6 +36,6 @@ highlight Comment ctermfg=6
 highlight LineNr ctermfg=11
 highlight cCommentString ctermfg=6
 highlight cComment ctermfg=6
-hi SpecialKey ctermfg=black
+hi SpecialKey ctermfg=grey
 "set background=dark
 syntax enable
