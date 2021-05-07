@@ -1,0 +1,16 @@
+RunAsDaemon 0
+FetchDirInfoEarly 1
+HardwareAccel 1
+ConnectionPadding 1
+ReachableORAddresses *:443
+ReachableORAddresses *:80
+MaxCircuitDirtiness 30
+UseEntryGuards 1
+NumEntryGuards 8
+NewCircuitPeriod 15
+KeepalivePeriod 60
+CircuitBuildTimeout 1
+DataDirectory /var/lib/tor
+HTTPTunnelPort 9052
+#ControlPort 127.0.0.1:9051
+PidFile /var/lib/tor/tor.pid

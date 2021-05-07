@@ -1,0 +1,7 @@
+css=/cgit/cgit.css
+logo=/cgit/cgit.png
+scan-path=/srv/git
+enable-commit-graph=1
+enable-git-config=1
+enable-http-clone=1
+

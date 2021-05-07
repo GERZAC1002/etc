@@ -1,0 +1,12 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sdb1 LABEL=ARCH
+UUID=4deab419-5394-46dd-bb04-21602834c740	/	ext4	rw,relatime	0 1
+
+# /dev/sdb2
+UUID=50e3dd8e-fb42-47a9-b1ec-75a102cf18e9	none	swap	defaults  	0 0
+UUID=51906239-8366-4872-8880-592b6ae18ef0	/srv/nfs	ext4	nofail,x-systemd.device-timeout=10s	0 0
+UUID=357481c4-b513-438a-ae76-f6780b1e94c5	/mnt/mirror	ext4	nofail,x-systemd.device-timeout=10s	0 2
+UUID=d5564076-b503-4436-8974-a6a26a8bcdca	/srv/minecraft	ext4	nofail,x-systemd.device-timeout=10s	0 2
