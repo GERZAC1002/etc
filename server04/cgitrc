@@ -1,7 +1,10 @@
 css=/cgit/cgit.css
 logo=/cgit/cgit.png
-scan-path=/srv/git
-enable-commit-graph=1
-enable-git-config=1
-enable-http-clone=1
 
+enable-commit-graph=1
+enable-git-config=0
+enable-http-clone=1
+enable-log-linecount=1
+snapshots=tar.bz2 zip
+repository-sort=age
+scan-path=/srv/git/
