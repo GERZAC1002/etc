@@ -1,0 +1,16 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+UUID=c5156967-1f9c-4551-9f7c-a6c1bd3bd8d6	/         	ext4      	rw,relatime	0 1
+UUID=a7c3cc7c-7bc1-431b-958b-d7b1c0c63743	/home     	ext4      	rw,relatime	0 2
+UUID=27f63b47-418c-4160-824f-c8d3a1243de6	none      	swap      	defaults  	0 0
+tmpfs	/var/log/journal		tmpfs	nodev,nosuid,size=10M 0	0
+tmpfs	/var/lib/systemd/coredump	tmpfs	nodev,nosuid,size=10M 0 0
+tmpfs   /var/log			tmpfs	nodev,nosuid,size=10M 0 0
+tmpfs	/var/log/lighttpd		tmpfs	nodev,nosuid,size=10M 0 0
+#tmpfs	/var/cache/pacman		tmpfs	nodev,nosuid,size=500M 0 0
+192.168.3.221:/srv/nfs	/mnt/nfs  	nfs4	rw,vers=4.2,rsize=262144,wsize=262144,namlen=255,soft,proto=tcp,timeo=600,retrans=2,sec=sys,local_lock=none,addr=192.168.3.221	0 0
+192.168.3.221:/mnt/mirror /mnt/mirror	nfs4	rw,vers=4.2,rsize=262144,wsize=262144,namlen=255,soft,proto=tcp,timeo=600,retrans=2,sec=sys,local_lock=none,addr=192.168.3.221 0 0
+#192.168.3.221:/mnt/mirror/gernot /home/gernot	nfs4	rw,vers=4.2,rsize=262144,wsize=262144,namlen=255,soft,proto=tcp,timeo=600,retrans=2,sec=sys,local_lock=none,addr=192.168.3.221	0 0
+
