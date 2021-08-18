@@ -1,0 +1,7 @@
+dev-perl/rename ~amd64
+app-text/xournalpp ~amd64
+x11-misc/i3status ~amd64
+dev-lang/tcc ~amd64
+app-text/fbpdf ~amd64
+sys-boot/grub ~amd64
+x11-misc/grub2-theme-preview ~amd64
