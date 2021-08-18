@@ -4,9 +4,9 @@ After=network.target
 
 [Service]
 CapabilityBoundingSet=~ CAP_NET_ADMIN CAP_SYS_ADMIN CAP_SYS_BOOT CAP_SYS_MODULE
-ExecReload=/usr/bin/tsocks postfix reload
-ExecStart=/usr/bin/tsocks postfix start
-ExecStop=/usr/bin/tsocks postfix stop
+ExecReload=/usr/bin/proxychains postfix reload
+ExecStart=/usr/bin/proxychains postfix start
+ExecStop=/usr/bin/proxychains postfix stop
 PIDFile=/var/spool/postfix/pid/master.pid
 PrivateDevices=true
 PrivateTmp=true
