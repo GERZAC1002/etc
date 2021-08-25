@@ -1,0 +1,3 @@
+net-wireless/gqrx pulseaudio
+dev-python/PyQt5 gui location network widgets positioning
+net-wireless/gr-osmosdr rtlsdr
