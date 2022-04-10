@@ -5,3 +5,61 @@ dev-lang/tcc ~amd64
 app-text/fbpdf ~amd64
 sys-boot/grub ~amd64
 x11-misc/grub2-theme-preview ~amd64
+
+#obs
+media-video/obs-studio ~amd64
+
+#FreeCAD:
+sci-libs/vtk ~amd64
+sci-libs/med ~amd64
+sci-libs/xdmf2 ~amd64
+dev-python/shiboken2 ~amd64
+dev-python/pyside2 ~amd64
+
+#KiCAD:
+sci-electronics/kicad ~amd64
+sci-electronics/kicad-i18n ~amd64
+sci-electronics/kicad-footprints ~amd64
+sci-electronics/kicad-doc ~amd64
+sci-electronics/kicad-meta ~amd64
+sci-electronics/kicad-packages3d ~amd64
+sci-electronics/kicad-templates ~amd64
+sci-electronics/kicad-symbols ~amd64
+sci-electronics/ngspice ~amd64
+app-eselect/eselect-opencascade ~amd64
+sci-libs/opencascade ~amd64
+sci-libs/oce ~amd64
+dev-python/wxpython ~amd64
+
+#XFE
+x11-misc/xfe ~amd64
+x11-libs/fox ~amd64
+
+#librewolf
+www-client/librewolf ~amd64
+
+#libnfc
+dev-libs/libnfc ~amd64
+
+#lua
+dev-lang/lua ~amd64
+
+#0ad
+games-strategy/0ad ~amd64
+games-strategy/0ad-data ~amd64
+net-libs/gloox ~amd64
+
+#lgogdownloader
+dev-cpp/htmlcxx ~amd64
+
+#pcmanfm
+x11-misc/pcmanfm ~amd64
+
+#icewm-extra-themes
+x11-themes/icewm-extra-themes ~amd64
+
+#warzone2100
+games-strategy/warzone2100 ~amd64
+
+#nethack
+games-roguelike/nethack

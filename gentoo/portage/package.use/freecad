@@ -1,0 +1,5 @@
+sci-libs/opencascade freeimage gles2 qt5 inspector tbb
+sci-libs/oce freeimage vtk
+sci-libs/hdf5 -hl
+dev-libs/xerces-c curl icu
+dev-python/pyside2 gui svg
